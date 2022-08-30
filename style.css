@@ -53,5 +53,34 @@ color: #6bc449;
 
 .feature-icon{
     color: #6bc449;
-    size: 40px;
+    margin: 20px 0px;
+    font-size: 40px;
+}
+
+.feature-items{
+    min-height: 280px;
+}
+
+.card:hover{
+    transform: scale(1.0);
+    background-color:black !important;
+    color: #fff;
+}
+
+/* About Us */
+
+.about-us{
+    background-color: #f8f9fa;
+}
+
+.about-us h1{
+    color: #6bc449;
+}
+
+.about-info{
+
+}
+
+.about-btn button:hover{
+    background-color: black;
 }
