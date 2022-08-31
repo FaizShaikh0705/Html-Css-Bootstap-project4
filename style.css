@@ -1,8 +1,10 @@
+/* Header */
 body{
     margin: 0px;
     padding: 0px
 }
-/* Header */
+
+/* Navbar */
 .navbar{
     border-bottom: 5px solid #6bc449;
 }
@@ -77,10 +79,55 @@ color: #6bc449;
     color: #6bc449;
 }
 
-.about-info{
-
-}
-
 .about-btn button:hover{
     background-color: black;
 }
+
+/* stock */
+
+.stock-details h1{
+    color: #6bc449;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.stock-details{
+    margin-top: 160px;
+}
+
+@media  only screen and (max-width: 400px){
+    .stock-details{
+       margin-top: 20px;
+    }
+}
+    
+.stock-details button:hover{
+    background-color: black;
+}
+
+/* testimonials */
+
+.testimonial-data h1{
+    color: #6bc449;
+}
+
+.testimonial-data{
+    background-color: #f8f9fa
+ }
+ .client-details{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top:40px;
+ }
+ .client-img img{
+    float: left;
+ }
+ .client-img img:hover{
+    transform: scale(1.1);
+ }
+
+ .sign-up{
+   background-image: linear-gradient(to bottom,rgb(14, 144, 14),light rgb(11, 162, 11),rgb(13, 217, 13)) ; 
+min-height: 200px;
+}
+ 
