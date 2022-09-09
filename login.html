@@ -7,6 +7,78 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+      <!-- Navbar Starts -->
+      <section class="header">
+        <div class="header-menu">
+            <nav class="navbar navbar-expand-lg m-2">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo-img" height="50px"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Our Feature</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Testimonials</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    My Account
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="login.html">Log In</a></li>
+                                    <li><a class="dropdown-item" href="signup.html">Sign Up</a></li>
+                                </ul>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+   <!-- Navbar Ends -->
+
+<!-- Form Strats -->
+    <section class="login-input-form">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-10 container-box mx-auto m-4">
+                    <h2 class="banner-text">Login</h2>
+                    <form>
+                        <div class="form-group mt-4">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control mt-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group mt-4">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control mt-2" id="exampleInputPassword1" placeholder="Enter Password">
+                        </div>
+                        <div class="form-check mt-4">
+                            <input type="checkbox" class="form-check-input mt-2" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <div class="banner-btn mb-3 mt-4">
+                            <button type="button" class="button px-4 py-2 rounded-5 mt-2">LOGIN</button>
+                            <a href="signup.html" class="href-text">Don't Have an Account</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Form End -->
 </body>
 </html>

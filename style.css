@@ -126,8 +126,127 @@ color: #6bc449;
     transform: scale(1.1);
  }
 
- .sign-up{
-   background-image: linear-gradient(to bottom,rgb(14, 144, 14),light rgb(11, 162, 11),rgb(13, 217, 13)) ; 
-min-height: 200px;
+ /* .sign-up */
+ .Sign-up{
+    background-image: linear-gradient(#5dc559,#70e22f);
+   min-height: 200px;
 }
  
+.signup-text h2{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.signup-btns a{
+    text-decoration: none;
+ }
+ .signup-btns{
+    background-color: #fff;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    color: #000;
+ }
+ .signup-btns:hover{
+    background-color: #000;
+    color: #fff;
+ }
+ @media only screen and (max-width:768px){
+    .signup-text h2 {
+        font-size: 25px;
+    }
+ }
+
+ .terms{
+    text-align: justify;
+}
+
+/* footer */
+
+.footer{
+    background-color: #343a40;
+    min-height: 80px;
+    color: #6bc449;
+}
+.copy-r{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 70px;
+    text-transform: capitalize;
+}
+.social-icons{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-height: 80px;
+    padding-right: 10px;
+}
+.fa-circle-chevron-up{
+    font-size: 40px;
+}
+.fa-brands, .fa-solid{
+    padding-right: 15px;
+}
+.fa-brands:hover,
+.fa-solid:hover{
+    color: #fff;
+    font-size: 30px;
+}
+@media screen and (max-device-width: 640px) {
+    .copy-r {
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 40px;
+        text-transform: capitalize;
+    }
+    .social-icons {
+        padding-right: 60px;
+        padding-bottom: 20px;
+    }
+  }
+  @media screen and (min-device-width: 768px)
+  and (max-device-width: 1024px) {
+    .copy-r {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 60px;
+        text-transform: capitalize;
+    }
+    .social-icons {
+        height: 0px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+}
+ /* footer  */
+
+ .signup-input-form{
+    background-image: url(images/banner-new.jpg);
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+.login-input-form{
+    /* background-image: url(images/banner-new.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
+.container-box{
+    background-color: #fff !important;
+}
+.href-text{
+    text-decoration: none;
+    text-transform: none;
+    color: #5dc559;
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
+}
